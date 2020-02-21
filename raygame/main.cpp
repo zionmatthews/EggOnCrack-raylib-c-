@@ -17,6 +17,8 @@ int main()
 	//--------------------------------------------------------------------------------------
 	int screenWidth = 800;
 	int screenHeight = 450;
+	/*int result = Add<int>(5, 7.5f);*/
+
 
 	InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
 
@@ -34,6 +36,7 @@ int main()
 		// Draw
 		//----------------------------------------------------------------------------------
 		BeginDrawing();
+		
 
 		ClearBackground(BLACK);
 
