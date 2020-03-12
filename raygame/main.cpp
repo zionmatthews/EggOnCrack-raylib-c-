@@ -14,7 +14,7 @@
 
 int main()
 {
-	Game game(1000, 1000);
+	Game game(900, 500);
 	game.run();
 	
 

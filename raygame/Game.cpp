@@ -18,5 +18,16 @@ Game::~Game()
 // This is where we will run the game
 void Game::run() 
 {
+	while (!WindowShouldClose()) 
+	{
+		BeginDrawing();
+		ClearBackground(BLACK);
 
+		//Stuff will go here
+		//Actor
+		
+
+
+		EndDrawing();
+	}
 }

@@ -3,11 +3,15 @@ class Enemy
 {
 public:
 	Enemy();
-	~Enemy();
+	~Enemy();	
 
+	void takeDamage(int damage);
+	void Update();
+	void Movement();
+
+protected:
 
 	int attack();
 	int health;
-	void takeDamage(int damage);
 };
 
