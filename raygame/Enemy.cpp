@@ -2,6 +2,7 @@
 
 Enemy::Enemy()
 {
+	//Enemy hp
 	health = 10;
 }
 
@@ -17,5 +18,17 @@ int Enemy::attack()
 
 void Enemy::takeDamage(int damage)
 {
+	//Damage
 	health -= damage;	
+}
+
+void Enemy::Update() 
+{
+	//Hitbox detection should be here
+}
+
+//Enemy movement function
+void Enemy::Movement() 
+{
+
 }

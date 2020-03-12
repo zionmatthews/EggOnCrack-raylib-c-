@@ -10,8 +10,8 @@ public:
 	int windowSizeX;
 	int windowSizeY;
 
-	char* name;
+	
 
-	bool gameover;
+	
 };
 
