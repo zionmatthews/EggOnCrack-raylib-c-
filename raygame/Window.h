@@ -1,10 +1,10 @@
 #pragma once
-class Game
+class Window
 {
 public:
 
-	Game(int X, int Y);
-	~Game();
+	Window(int X, int Y);
+	~Window();
 	void run();
 
 	int windowSizeX;

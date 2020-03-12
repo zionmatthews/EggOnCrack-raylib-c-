@@ -1,22 +1,22 @@
-#include "Game.h"
+#include "Window.h"
 #include <raylib.h>
 
-Game::Game(int X, int Y) 
+Window::Window(int X, int Y) 
 {
 
 	windowSizeX = X;
 	windowSizeY = Y;
 
-	InitWindow(X, Y, "Egg on Crack .5 1/2");
+	InitWindow(X, Y, "Egg on Crack .5 and 1/2");
 	SetTargetFPS(60);
 }
 
-Game::~Game() 
+Window::~Window() 
 {
 
 }
 // This is where we will run the game
-void Game::run() 
+void Window::run() 
 {
 	while (!WindowShouldClose()) 
 	{
