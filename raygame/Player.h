@@ -1,4 +1,6 @@
 #pragma once
+#include "List.h"
+
 class Player
 {
 public:
@@ -8,10 +10,9 @@ public:
 	void update();
 	void movement();
 
-
 private:
 
 	int _health;
 	int _attack;
+	List<int>* ammo;
 };
-

@@ -1,4 +1,5 @@
 #include "Window.h"
+#include "Game.h"
 #include <raylib.h>
 
 Window::Window(int X, int Y) 
@@ -24,10 +25,8 @@ void Window::run()
 		ClearBackground(BLACK);
 
 		//Stuff will go here
-		//Actor
-		
-
-
+		//Actor/Game
+		Game game;
 		EndDrawing();
 	}
 }
