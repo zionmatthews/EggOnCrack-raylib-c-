@@ -1,17 +1,16 @@
 #pragma once
+#include "Enemy.h"
+#include "List.h"
+#include "Player.h"
+
 class Game
 {
 public:
-
-	Game(int X, int Y);
+	Game();
 	~Game();
-	void run();
 
-	int windowSizeX;
-	int windowSizeY;
+private:
 
-	
-
-	
+	List<Enemy>* enemy;
+	Player _player;
 };
-

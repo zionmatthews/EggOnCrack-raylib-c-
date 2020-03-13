@@ -10,12 +10,12 @@
 ********************************************************************************************/
 
 #include "raylib.h"
-#include "Game.h"
+#include "Window.h"
 
 int main()
 {
-	Game game(900, 500);
-	game.run();
+	Window window(900, 500);
+	window.run();
 	
 
 	// De-Initialization
