@@ -1,6 +1,7 @@
 #include "Window.h"
-#include "Game.h"
 #include <raylib.h>
+#include "Enemy.h"
+#include "Player.h"
 
 Window::Window(int X, int Y) 
 {
@@ -25,8 +26,17 @@ void Window::run()
 		ClearBackground(BLACK);
 
 		//Stuff will go here
-		//Actor/Game
-		Game game;
+		//Actor
+		Enemy enemy;
+		Player player;
+
+
+
 		EndDrawing();
+
+		if (enemy.isDead() || player.isDead())
+		{
+			break;
+		}
 	}
 }

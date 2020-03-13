@@ -5,7 +5,7 @@ class Iterator
 {
 private:
 
-	Node<T> * current;
+	Node<T> * currentNode;
 
 public:
 

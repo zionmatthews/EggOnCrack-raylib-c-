@@ -25,3 +25,12 @@ void Player::movement()
 {
 
 }
+
+bool Player::isDead()
+{
+	if (_health <= 0)
+	{
+		return true;
+	}
+	return false;
+}

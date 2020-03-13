@@ -8,6 +8,7 @@ public:
 	void takeDamage(int damage);
 	void Update();
 	void Movement();
+	bool isDead();
 
 protected:
 

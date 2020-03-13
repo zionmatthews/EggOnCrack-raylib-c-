@@ -9,6 +9,7 @@ public:
 	void takeDamage(int damage);
 	void update();
 	void movement();
+	bool isDead();
 
 private:
 
